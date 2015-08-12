@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Merix_AllCategories>
+            <version>1.0.0</version>
+        </Merix_AllCategories>
+    </modules>
+    <global>
+        <blocks>
+            <merix_allcategories>
+                <class>Merix_AllCategories_Block</class>
+            </merix_allcategories>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <merix_allcategories>
+                    <file>merix/allcategories.xml</file>
+                </merix_allcategories>
+            </updates>
+        </layout>
+    </frontend>
+</config>

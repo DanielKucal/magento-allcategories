@@ -1,0 +1,3 @@
+app/code/local/Merix/AllCategories
+app/design/frontend/base/default/template/merix/allcategories.phtml
+app/etc/modules/Merix_AllCategories.xml

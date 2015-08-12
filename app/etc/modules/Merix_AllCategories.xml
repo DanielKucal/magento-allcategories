@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Merix_AllCategories>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends></depends>
+        </Merix_AllCategories>
+    </modules>
+</config>
