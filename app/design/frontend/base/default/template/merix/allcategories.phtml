@@ -1,8 +1,12 @@
 <div class="all-categories">
-   <span><?php echo Mage::helper('catalog/category')->__('Categories') ?>:</span>
-    <ul>
-    <?php foreach($this->getAllCategories() as $category): ?>
-        <li><a href="<?php echo $category->getUrl() ?>"><?php echo $category->getName(); ?></a></li>
-    <?php endforeach; ?>
-    </ul>
+    <dl>
+        <dt><?php echo Mage::helper('catalog/category')->__('Categories') ?>:</dt>
+        <dd>
+            <ul>
+            <?php foreach($this->getAllCategories() as $category): ?>
+                <li><a href="<?php echo $category->getUrl() ?>"><?php echo $category->getName(); ?></a></li>
+            <?php endforeach; ?>
+            </ul>
+        </dd>
+    </dl>
 </div>
