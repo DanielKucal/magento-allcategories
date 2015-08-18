@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
     <catalog_product_view>
+        <reference name="head">
+            <action method="addCss"><stylesheet>css/merix/all-categories.css</stylesheet></action>
+        </reference>
         <reference name="product.info">
             <block type="merix_allcategories/categories"
                     name="all.categories" as="allcategories"
