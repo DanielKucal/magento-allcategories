@@ -2,4 +2,4 @@ app/code/local/Merix/AllCategories
 app/design/frontend/base/default/template/merix/allcategories.phtml
 app/design/frontend/base/default/layout/merix/allcategories.xml
 app/etc/modules/Merix_AllCategories.xml
-app/skin/frontend/base/default/css/merix/all-categories.css
+skin/frontend/base/default/css/merix/all-categories.css
