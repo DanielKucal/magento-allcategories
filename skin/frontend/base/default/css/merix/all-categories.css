@@ -3,12 +3,10 @@
     width: 100%;
 }
 .all-categories dt {
+    clear: left;
     float: left;
     margin-right: 10px;
     font-weight: 700;
-}
-all-categories dd {
-    clear: left;
 }
 .all-categories li {
     display: inline-block;
