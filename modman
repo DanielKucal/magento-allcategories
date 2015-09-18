@@ -1,4 +1,4 @@
-app/code/local/Merix/AllCategories
+app/code/community/Merix/AllCategories
 app/design/frontend/base/default/template/merix/allcategories.phtml
 app/design/frontend/base/default/layout/merix/allcategories.xml
 app/etc/modules/Merix_AllCategories.xml
